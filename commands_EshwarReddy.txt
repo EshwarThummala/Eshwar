@@ -1,0 +1,13 @@
+git config --global user.name EshwarThummala
+git config --global user.email eshwarreddy.thummala@gmail.com
+git init
+git clone https://github.com/EshwarThummala/HelloWorld.git
+git status
+git add .
+git commit -m "Created Hello World File"
+git remote -v
+git push https://github.com/EshwarThummala/HelloWorld.git master
+git pull https://github.com/EshwarThummala/HelloWorld.git master
+git checkout -b swap-branch
+git commit -m "Created swap file"
+git push https://github.com/EshwarThummala/HelloWorld.git swap-branch
