@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-	int size,index,temp;
+	int size,index,temp1,temp2,temp;
 	printf("Enter the size of Array\n");
 	scanf("%d",&size);
 	int starting_array[size],reversed_array[size];
@@ -10,15 +10,19 @@ void main()
 	{
 		scanf("%d",&starting_array[index]);
 	}
-	temp=size-1;
-	for(index=0;index<size;index++)
-	{
-	   reversed_array[index]=starting_array[temp];
-	   --temp;	
+	index=0;
+	temp2=size-1;
+         while(index<=temp2)
+        {
+          temp=starting_array[index];
+	   starting_array[index]=starting_array[temp2];
+	   starting_array[temp2]=temp;
+	   ++index;
+	   --temp2;	
 	}
 	printf("Reversed array:\n");
 	for(index=0;index<size;index++)
 	{
-		printf("%d\t",reversed_array[index]);
+		printf("%d\t",starting_array[index]);
 	}
 }
