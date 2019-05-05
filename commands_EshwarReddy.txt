@@ -1,13 +1,17 @@
-git config --global user.name EshwarThummala
-git config --global user.email eshwarreddy.thummala@gmail.com
-git init
-git clone https://github.com/EshwarThummala/HelloWorld.git
-git status
-git add .
-git commit -m "Created Hello World File"
-git remote -v
-git push https://github.com/EshwarThummala/HelloWorld.git master
-git pull https://github.com/EshwarThummala/HelloWorld.git master
-git checkout -b swap-branch
-git commit -m "Created swap file"
-git push https://github.com/EshwarThummala/HelloWorld.git swap-branch
+Commands-Reversed Array List
+1)git config  --global user.name EshwarThummala
+2)git config  --global user.email eshwarreddy.thummala@gmail.com
+3)git clone https://github.com/EshwarThummala/Eshwar.git
+4)cd Eshwar
+5)git pull https://github.com/EshwarThummala/Eshwar.git master
+6)git checkout -b reverse-branch
+7)git add .
+8)git commit -m "Created ReverseArraylist file"
+9)git checkout master
+10)git push https://github.com/EshwarThummala/Eshwar.git reverse-branch
+
+
+
+
+
+
