@@ -4,7 +4,7 @@ void main()
 	int size,index,temp1,temp2,temp;
 	printf("Enter the size of Array\n");
 	scanf("%d",&size);
-	int starting_array[size],reversed_array[size];
+	int starting_array[size];
 	printf("Enter Array Elements\n");
 	for(index=0;index<size;index++)
 	{
