@@ -13,12 +13,12 @@ NOTES:
 */
 int count(int num1, int num2)
 {
-	int count = 0, i;
+	int count = 0, index;
 	if ((num1 != 0) && (num2 != 0))
 	{
-		for (i = num1; i <= num2; i++)
+		for (index = num1; index <= num2; index++)
 		{
-			if ((i% num1) == 0)
+			if ((index% num1) == 0)
 				count++;
 		}
 		return count;
