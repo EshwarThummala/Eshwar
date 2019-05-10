@@ -17,7 +17,7 @@ DONT CHANGE THE FUNCTION HEADERS.
 
 */
 
-#include <stdio.h>
+
 
 
 int countFactorials(long l, long h)
